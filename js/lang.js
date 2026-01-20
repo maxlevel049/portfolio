@@ -43,7 +43,18 @@ const translations = {
         case_whale_p3_title: "Psychology of Color:",
         case_whale_p3_desc: "The electric blue grading establishes a high-tech vibe, while the bold typography promises a working solution.",
 
-        // CASE 2: DOCS (KAI CENAT)
+        // CASE 2: EDUCAÇÃO (NOVO)
+        case_edu_title: "Stop Procrastinating Now",
+        case_edu_ctr: "⚡ CTR 10%",
+        case_edu_views: "🔥 10k+ Views",
+        case_edu_p1_title: "The Transformation Arc:",
+        case_edu_p1_desc: "Before vs. After storytelling that instantly communicates the pain of wasted time versus the reward of financial stability.",
+        case_edu_p2_title: "Emotional Mirroring:",
+        case_edu_p2_desc: "The relatable struggle on the 'before' side creates immediate empathy, hooking the viewer to seek the solution.",
+        case_edu_p3_title: "High-Contrast Duality:",
+        case_edu_p3_desc: "Visual dichotomy using color grading (dull vs. vibrant) to subconsciously signal that this video holds the key to the transition.",
+
+        // CASE 4: DOCS (KAI CENAT)
         case_doc_title: "Documentary: The #1 Streamer",
         case_doc_ctr: "⚡ CTR 12%",
         case_doc_views: "🔥 100k+ Views",
@@ -99,7 +110,18 @@ const translations = {
         case_whale_p3_title: "Psicologia das Cores:",
         case_whale_p3_desc: "O gradiente azul elétrico cria uma vibe high-tech, enquanto a tipografia bold promete uma solução funcional.",
 
-        // CASE 2: DOCS (KAI CENAT)
+        // CASE 2: EDUCAÇÃO (NOVO)
+        case_edu_title: "Pare de Procrastinar Agora",
+        case_edu_ctr: "⚡ CTR 10%",
+        case_edu_views: "🔥 +10k Views",
+        case_edu_p1_title: "Arco de Transformação:",
+        case_edu_p1_desc: "Storytelling de Antes vs. Depois que comunica instantaneamente a dor do tempo perdido versus a recompensa da estabilidade financeira.",
+        case_edu_p2_title: "Espelhamento Emocional:",
+        case_edu_p2_desc: "A luta relacionável do lado 'antes' cria empatia imediata, enganchando o espectador para buscar a solução.",
+        case_edu_p3_title: "Dicotomia Visual:",
+        case_edu_p3_desc: "Dicotomia visual usando color grading (opaco vs. vibrante) para sinalizar subconscientemente que este vídeo contém a chave para a transição.",
+
+        // CASE 4: DOCS (KAI CENAT)
         case_doc_title: "Documentário: O Maior Streamer",
         case_doc_ctr: "⚡ CTR 12%",
         case_doc_views: "🔥 +100k Views",
