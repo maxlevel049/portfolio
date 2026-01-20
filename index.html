@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- SEO & METADATA -->
+    <meta name="description" content="High-converting Thumbnails & Strategic Branding. Boost your CTR and Sales with professional design.">
+    <meta name="keywords" content="Thumbnail Designer, Branding, Graphic Design, YouTube CTR, E-commerce Design">
+    <meta name="author" content="Endrew Designer">
+    
+    <!-- SOCIAL SHARE -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Endrew.Designer | Visuals that Sell">
+    <meta property="og:description" content="Stop the scroll. Make them click. High-performance design for creators and brands.">
+    <meta property="og:image" content="img/cloudgame1.jpg"> 
+    
+    <title>Endrew.Designer | Visuals that Sell</title>
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <!-- Fontes -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- NAV -->
+    <nav>
+        <div class="logo">Endrew<span class="dot">.</span>Designer</div>
+        <ul class="nav-links desktop-menu">
+            <li><a href="#work" data-lang="menu_work">Portfolio</a></li>
+            <li><a href="#services" data-lang="menu_services">Services</a></li>
+            <li><a href="#contact" class="btn-primary" data-lang="menu_hire">Hire Me</a></li>
+            <li><button class="lang-btn">🇧🇷 PT</button></li>
+        </ul>
+        <div class="hamburger" id="hamburger-btn">
+            <span class="bar"></span><span class="bar"></span><span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- MOBILE MENU -->
+    <div class="mobile-menu-overlay" id="mobile-menu">
+        <ul class="mobile-links">
+            <li><a href="#work" class="mobile-link" data-lang="menu_work">Portfolio</a></li>
+            <li><a href="#services" class="mobile-link" data-lang="menu_services">Services</a></li>
+            <li><a href="#contact" class="mobile-link btn-primary" data-lang="menu_hire">Hire Me</a></li>
+            <li><button class="lang-btn">🇧🇷 PT</button></li>
+        </ul>
+    </div>
+
+    <!-- HERO -->
+    <header class="hero">
+        <div class="reveal">
+            <p class="subtitle" data-lang="hero_subtitle">BOOST YOUR CTR & SALES</p>
+            <h1 data-lang="hero_title">Stop the scroll.<br>Make them click.</h1>
+            <p class="description" data-lang="hero_desc">High-converting Thumbnails for Creators & <br> Strategic Branding for E-commerce Stores.</p>
+            <div class="hero-buttons">
+                <a href="#work" class="btn-accent" data-lang="btn_portfolio">See My Work</a>
+                <a href="#contact" class="btn-secondary" data-lang="btn_quote">Get a Quote</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- WORK GRID -->
+    <section id="work" class="container reveal">
+        <h2 class="section-title" data-lang="section_projects">Selected Projects</h2>
+        <div class="projects-grid">
+            <!-- CASE 1: YOUTUBE -->
+            <article class="project-card" onclick="openGallery('gallery-youtube')">
+                <div class="card-image thumb-style">
+                    <img src="img/cloudgame1.jpg" class="card-img-fit" alt="Whale Cloud Gaming Thumbnail">
+                </div> 
+                <div class="card-info">
+                    <span class="tag youtube">YOUTUBE</span>
+                    <h3 data-lang="project1_title">Viral Thumbnails Pack</h3>
+                    <p data-lang="project1_desc">High CTR Design for Gaming & Vlogs</p>
+                </div>
+            </article>
+            <!-- CASE 2: BRANDING -->
+            <article class="project-card" onclick="openGallery('gallery-store')">
+                <div class="card-image brand-style">
+                     <img src="https://images.unsplash.com/photo-1523381210434-271e8be1f52b?q=80&w=2070&auto=format&fit=crop" class="card-img-fit" alt="Fashion Brand">
+                </div>
+                <div class="card-info">
+                    <span class="tag store">E-COMMERCE</span>
+                    <h3 data-lang="project2_title">Urban Wear Brand</h3>
+                    <p data-lang="project2_desc">Visual Identity & Social Media Kit</p>
+                </div>
+            </article>
+            <!-- CASE 3: MARKETING -->
+            <article class="project-card" onclick="openGallery('gallery-launch')">
+                <div class="card-image launch-style">
+                    <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop" class="card-img-fit" alt="Marketing Launch">
+                </div>
+                <div class="card-info">
+                    <span class="tag marketing">MARKETING</span>
+                    <h3 data-lang="project3_title">Course Launch Visuals</h3>
+                    <p data-lang="project3_desc">Landing Page Assets & Ads</p>
+                </div>
+            </article>
+        </div>
+    </section>
+
+    <!-- SERVIÇOS -->
+    <section id="services" class="services-strip reveal">
+        <div class="container">
+            <div class="service-item">
+                <h3 data-lang="serv_thumb">🔥 Thumbnails</h3>
+                <p data-lang="serv_thumb_desc">More Views</p>
+            </div>
+            <div class="service-item">
+                <h3 data-lang="serv_brand">🛍️ Branding</h3>
+                <p data-lang="serv_brand_desc">More Sales</p>
+            </div>
+            <div class="service-item">
+                <h3 data-lang="serv_social">🚀 Social Media</h3>
+                <p data-lang="serv_social_desc">More Engagement</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- FOOTER -->
+    <footer id="contact" class="reveal">
+        <div class="container">
+            <h2 data-lang="footer_title">Ready to level up your brand?</h2>
+            <p style="color: #888; margin-bottom: 20px;" data-lang="footer_sub">Available for freelance projects worldwide.</p>
+            <a href="mailto:endrew.designers1@gmail.com" class="email-link">endrew.designers1@gmail.com</a>
+            <div class="socials">
+                <a href="#">Instagram</a>
+                <a href="#">Behance</a>
+                <a href="#">LinkedIn</a>
+            </div>
+            <p class="copyright">© 2024 Endrew.Designer.</p>
+        </div>
+    </footer>
+
+    <!-- === GALERIA YOUTUBE === -->
+    <div id="gallery-youtube" class="modal-overlay">
+        <div class="sticky-cta-bar">
+            <div class="cta-content">
+                <span class="cta-text" data-lang="modal_cta_text">Want results like this?</span>
+                <a href="#contact" class="btn-accent" onclick="closeGallery()" data-lang="btn_quote">Get a Quote</a>
+            </div>
+        </div>
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeGallery()">✕ <span data-lang="btn_close">Close</span></button>
+            <h2 class="modal-title">YouTube High-Performance</h2>
+            
+            <div class="filter-tabs">
+                <button class="filter-btn active" onclick="filterSelection('all')">All</button>
+                <button class="filter-btn" onclick="filterSelection('gaming')">🎮 Gaming</button>
+                <button class="filter-btn" onclick="filterSelection('vlog')">📹 Vlogs</button>
+                <button class="filter-btn" onclick="filterSelection('doc')">🎞️ Docs</button>
+            </div>
+            
+            <div class="gallery-list">
+                
+                <!-- === CASE: WHALE (GAMING) === -->
+                <div class="case-item category-gaming">
+                    <div class="case-image-container">
+                        <img src="img/cloudgame1.jpg" class="case-img" alt="Thumbnail Whale Cloud 1">
+                        <img src="img/cloudgame2.jpg" class="case-img" alt="Thumbnail Whale Cloud 2" style="margin-top: 15px;">
+                    </div>
+                    <div class="case-details">
+                        <div class="case-header">
+                            <h3 data-lang="case_whale_title">Cloud Gaming: Whale Emulator</h3>
+                            <div class="stats-stack">
+                                <div class="stats-badge badge-ctr" data-lang="case_whale_ctr">⚡ CTR 15%</div>
+                                <div class="stats-badge badge-views" data-lang="case_whale_views">🔥 85k+ Views</div>
+                            </div>
+                        </div>
+                        <div class="process-text">
+                            <span class="process-label" data-lang="label_process">The Strategy:</span>
+                            <p class="process-desc">
+                                <!-- Texto inserido diretamente -->
+                                <strong data-lang="case_whale_p1_title">Visual Anchor:</strong> 
+                                <span data-lang="case_whale_p1_desc">Leveraged the iconic "Whale" logo for immediate brand recognition among emulator fans.</span><br><br>
+                                
+                                <strong data-lang="case_whale_p2_title">Contextual UI:</strong> 
+                                <span data-lang="case_whale_p2_desc">Merged the app interface with gameplay background to prove functionality at a glance.</span><br><br>
+                                
+                                <strong data-lang="case_whale_p3_title">Psychology of Color:</strong> 
+                                <span data-lang="case_whale_p3_desc">The electric blue grading establishes a high-tech vibe, while the bold typography promises a working solution.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- === CASE: VLOG (EM BREVE) === -->
+                <div class="case-item category-vlog">
+                    <div class="empty-state-container" style="width: 100%;">
+                        <div class="empty-state-content">
+                            <span class="empty-icon">📹</span>
+                            <h3 data-lang="soon_title">Case Studies in Production</h3>
+                            <p data-lang="soon_desc">I am currently curating high-impact data and visuals for this section. Check back soon.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- === CASE: DOCS (KAI CENAT) === -->
+                <div class="case-item category-doc">
+                    <div class="case-image-container">
+                        <img src="img/thumb2.jpg" class="case-img" alt="Kai Cenat Thumbnail">
+                    </div>
+                    <div class="case-details">
+                        <div class="case-header">
+                            <h3 data-lang="case_doc_title">The Top Streamer Documentary</h3>
+                            <div class="stats-stack">
+                                <div class="stats-badge badge-ctr" data-lang="case_doc_ctr">⚡ CTR 12%</div>
+                                <div class="stats-badge badge-views" data-lang="case_doc_views">🔥 100k+ Views</div>
+                            </div>
+                        </div>
+                        <div class="process-text">
+                            <span class="process-label" data-lang="label_process">The Strategy:</span>
+                            <p class="process-desc">
+                                <!-- Texto inserido diretamente -->
+                                <strong data-lang="case_doc_p1_title">Pattern Interrupt:</strong> 
+                                <span data-lang="case_doc_p1_desc">A discrete light pink background was chosen to aggressively contrast against the dark mode UI of YouTube, instantly grabbing attention.</span><br><br>
+                                
+                                <strong data-lang="case_doc_p2_title">The Curiosity Gap:</strong> 
+                                <span data-lang="case_doc_p2_desc">The bold white text "100 Billed Millions" creates an immediate financial intrigue (Greed Trigger).</span><br><br>
+                                
+                                <strong data-lang="case_doc_p3_title">Authority Anchor:</strong> 
+                                <span data-lang="case_doc_p3_desc">Kai Cenat centered as the main focus leverages his massive celebrity authority to drive clicks.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div style="height: 100px;"></div>
+        </div>
+    </div>
+
+    <!-- === GALERIA STORE (EM BREVE) === -->
+    <div id="gallery-store" class="modal-overlay">
+        <div class="sticky-cta-bar">
+            <div class="cta-content">
+                <span class="cta-text" data-lang="modal_cta_text">Want results like this?</span>
+                <a href="#contact" class="btn-accent" onclick="closeGallery()" data-lang="btn_quote">Get a Quote</a>
+            </div>
+        </div>
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeGallery()">✕ <span data-lang="btn_close">Close</span></button>
+            <h2 class="modal-title">E-commerce Branding</h2>
+            <div class="empty-state-container">
+                <div class="empty-state-content">
+                    <span class="empty-icon">🛍️</span>
+                    <h3 data-lang="soon_title">Case Studies in Production</h3>
+                    <p data-lang="soon_desc">I am currently curating high-impact data and visuals for this section. Check back soon.</p>
+                </div>
+            </div>
+            <div style="height: 100px;"></div>
+        </div>
+    </div>
+
+    <!-- === GALERIA LAUNCH (EM BREVE) === -->
+    <div id="gallery-launch" class="modal-overlay">
+        <div class="sticky-cta-bar">
+            <div class="cta-content">
+                <span class="cta-text" data-lang="modal_cta_text">Want results like this?</span>
+                <a href="#contact" class="btn-accent" onclick="closeGallery()" data-lang="btn_quote">Get a Quote</a>
+            </div>
+        </div>
+        <div class="modal-content">
+            <button class="close-btn" onclick="closeGallery()">✕ <span data-lang="btn_close">Close</span></button>
+            <h2 class="modal-title">Launch & Ads</h2>
+            <div class="empty-state-container">
+                <div class="empty-state-content">
+                    <span class="empty-icon">🚀</span>
+                    <h3 data-lang="soon_title">Case Studies in Production</h3>
+                    <p data-lang="soon_desc">I am currently curating high-impact data and visuals for this section. Check back soon.</p>
+                </div>
+            </div>
+            <div style="height: 100px;"></div>
+        </div>
+    </div>
+
+    <!-- SCRIPTS -->
+    <script src="js/lang.js"></script>
+    <script src="js/ui.js"></script>
+    <script src="js/gallery.js"></script>
+
+</body>
+</html>

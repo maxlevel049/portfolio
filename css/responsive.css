@@ -1,0 +1,27 @@
+@media (max-width: 768px) {
+    /* Menu */
+    .desktop-menu { display: none; }
+    .hamburger { display: block; }
+    
+    /* Hero */
+    .hero h1 { font-size: 2.8rem; letter-spacing: -1px; }
+    .hero { padding: 100px 20px 40px; }
+    .hero-buttons { flex-direction: column; width: 100%; }
+    .btn-accent, .btn-secondary { width: 100%; }
+    
+    /* Layout */
+    .services-strip .container { flex-direction: column; }
+    .case-item { flex-direction: column; }
+    .case-image-container { width: 100%; }
+    
+    /* Stats no Mobile */
+    .case-header { flex-direction: column; align-items: flex-start; }
+    .stats-stack { flex-direction: row; align-items: center; width: 100%; flex-wrap: wrap; }
+    
+    /* Modal / CTA */
+    .modal-title { font-size: 1.8rem; }
+    .close-btn { margin-bottom: 20px; }
+    .cta-text { display: none; }
+    .sticky-cta-bar { bottom: 20px; width: auto; }
+    .cta-content { padding: 10px; border-radius: 12px; }
+}
